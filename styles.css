@@ -1,0 +1,99 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    min-width: 400px;
+}
+body,
+input,
+button {
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
+    color: #202124;
+}
+body {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.top-left,
+.top-right {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    width: 3rem;
+    height: 3rem;
+}
+.profile-pic {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+}
+.googol-icon {
+    width: 30rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(+5rem);
+}
+.search-icon,
+.mic-icon,
+.cam-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.middle-section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 1.2rem;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+.search-form-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-section {
+    justify-content: space-between;
+    padding: 1rem;
+}
+.bottom-left,
+.bottom-right {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
